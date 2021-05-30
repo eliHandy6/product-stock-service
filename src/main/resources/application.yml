@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: product-stock-service
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/products
+    username: postgres
+    password: wakaya
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+
+
+
+server:
+  port: ${port:8800}
+
+
+
+
